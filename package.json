@@ -4,6 +4,7 @@
   "description": "A car alarm, for your computer.",
   "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/branansmith/computercaralarm/issues"
   },
-  "homepage": "https://github.com/branansmith/computercaralarm#readme"
+  "homepage": "https://github.com/branansmith/computercaralarm#readme",
+  "devDependencies": {
+    "electron": "^37.2.6"
+  }
 }
