@@ -1,0 +1,19 @@
+{
+  "name": "computercaralarm",
+  "version": "1.0.0",
+  "description": "A car alarm, for your computer.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/branansmith/computercaralarm.git"
+  },
+  "author": "Branan Smith",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/branansmith/computercaralarm/issues"
+  },
+  "homepage": "https://github.com/branansmith/computercaralarm#readme"
+}
