@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+    <title>Computer Car Alarm</title>
+</head>
+
+<body>
+    <h1>Choose Sound</h1>
+
+    <div id="alarm-buttons">
+        <div id="alarm-sounds">
+            <img id="car-key-image" src="./carkey.png" />
+            <button class="alarm-button">TRUCK</button>
+            <button class="alarm-button">CAR</button>
+            <button class="alarm-button">TRAIN</button>
+            <button class="alarm-button">BOAT</button>
+        </div>
+        <div>
+            <button id="lock-button">LOCK</button>
+        </div>
+    </div>
+    <p id="info"></p>
+</body>
+<script src="./renderer.js"></script>
+
+</html>
